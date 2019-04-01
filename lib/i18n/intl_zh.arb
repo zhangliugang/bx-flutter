@@ -1,0 +1,67 @@
+{
+  "@@last_modified": "2019-03-07T10:37:33.884051",
+  "app_title": "App工匠的4K视频",
+  "@app_title": {
+    "description": "app title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "app_slogan": "左手程序，右手诗",
+  "@app_slogan": {
+    "description": "app slogan",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rights_info": "Copyright © 2015-2018 Boxue. All rights reserved.",
+  "@rights_info": {
+    "description": " copy rights",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin": "登录泊学",
+  "@signin": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "browse_now": "随便看看",
+  "@browse_now": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "welcome": "欢迎回来！",
+  "@welcome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "电子邮件",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "登录密码",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contact_us": "联系我们",
+  "@contact_us": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reset_password": "重置密码",
+  "@reset_password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin_error_title": "登录失败",
+  "@signin_error_title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin_error_desc": "啊喔！使用的登录信息错误，请重试。",
+  "@signin_error_desc": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

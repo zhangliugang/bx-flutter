@@ -1,0 +1,67 @@
+{
+  "@@last_modified": "2019-03-07T10:37:33.884051",
+  "app_title": "4K Screencasts for App Artisan",
+  "@app_title": {
+    "description": "app title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "app_slogan": "Modern, priactical app development",
+  "@app_slogan": {
+    "description": "app slogan",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rights_info": "Copyright © 2015-2018 Boxue. All rights reserved.",
+  "@rights_info": {
+    "description": " copy rights",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin": "Sign In",
+  "@signin": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "browse_now": "Browse Videos",
+  "@browse_now": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "welcome": "Welcome Back!",
+  "@welcome": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contact_us": "Contact Us",
+  "@contact_us": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reset_password": "Reset Password",
+  "@reset_password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin_error_title": "Sign in failed",
+  "@signin_error_title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signin_error_desc": "Oops! We couldn't verify your credentials. \nPlease try again.",
+  "@signin_error_desc": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
