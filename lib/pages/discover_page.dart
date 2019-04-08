@@ -3,6 +3,7 @@ import 'dart:math';
 import 'tab/account_page.dart';
 import 'draw.dart';
 import 'widgets/recent_card.dart';
+import 'widgets/history_card.dart';
 
 class DiscoverPage extends StatefulWidget {
   @override
@@ -99,16 +100,16 @@ class _DiscoverPageState extends State<DiscoverPage> {
               height: 146,
               width: double.infinity,
               child: ListView.builder(
-                padding: EdgeInsets.only(left: 16, right: 16),
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
                 scrollDirection: Axis.horizontal,
                 itemCount: 10,
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
                     margin: EdgeInsets.only(right: 8.0),
-                    child: Center(child: Text('$index')),
+                    child: HistoryCard(),
                     width: 144,
                     height: 146,
-                    color: _colors[Random().nextInt(_colors.length)],
+                    
                   );
                 },
               ),
