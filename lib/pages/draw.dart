@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'setting_page.dart';
 import 'paint_page.dart';
+import 'tab/account_page.dart';
 
 class DiscoverDrawer extends StatefulWidget {
   @override
@@ -13,6 +14,10 @@ class _DiscoverDrawerState extends State<DiscoverDrawer> {
     return Drawer(
       child: ListView(padding: EdgeInsets.all(0), children: <Widget>[
         UserAccountsDrawerHeader(
+          onDetailsPressed: (){
+            Navigator.of(context).pop();
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) => AccountPage()));
+          },
           accountName: Text('Boxue'),
           accountEmail: Text('test@boxue.io'),
           currentAccountPicture: CircleAvatar(

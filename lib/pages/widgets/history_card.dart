@@ -15,7 +15,7 @@ class _HistoryCardState extends State<HistoryCard> {
         Padding(
           padding: const EdgeInsets.symmetric(vertical: 6),
           child: Row(children: <Widget>[
-            Icon(Icons.watch, size: 16.0,),
+            Icon(Icons.schedule, size: 16.0,),
             Text('16:01 2018-07-11', style: TextStyle(fontSize: 11, fontWeight: FontWeight.bold, color: Colors.black54))
           ],),
         ),
