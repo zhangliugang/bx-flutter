@@ -5,6 +5,7 @@ import 'package:boxue/i18n/AppLocalizations.dart';
 import 'pages/splash_page.dart';
 import 'bloc/main_bloc.dart';
 import 'bloc/bloc_provider.dart';
+import 'pages/count_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -40,10 +41,11 @@ class MyApp extends StatelessWidget {
           // iconTheme: IconThemeData.fallback()
         )
       ),
-      home: BlocProvider(
-        bloc: MainBloc(),
-        child: SplashPage()
-        ),
+      // home: BlocProvider(
+      //   bloc: MainBloc(),
+      //   child: SplashPage()
+      //   ),
+      home: CountPage(),
     );
   }
 }
