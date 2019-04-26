@@ -59,6 +59,8 @@ flutter:
     - assets/images/2.0x/LaunchScreen_iPhoneX_dark.png
     - assets/images/3.0x/LaunchScreen_iPhoneX_dark.png
 
+    - assets/videos/z15-notification-payload.webm
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

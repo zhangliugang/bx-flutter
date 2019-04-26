@@ -43,7 +43,7 @@ class _CountPage extends State<CountPage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: <Widget>[UiKitView(),
             Text('You hav pushed the button this many times:'),
             // Text(
             //   '$_counter',
