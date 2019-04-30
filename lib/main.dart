@@ -41,11 +41,11 @@ class MyApp extends StatelessWidget {
           // iconTheme: IconThemeData.fallback()
         )
       ),
-      // home: BlocProvider(
-      //   bloc: MainBloc(),
-      //   child: SplashPage()
-      //   ),
-      home: CountPage(),
+      home: BlocProvider(
+        bloc: MainBloc(),
+        child: SplashPage()
+        ),
+      // home: CountPage(),
     );
   }
 }

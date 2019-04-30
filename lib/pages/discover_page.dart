@@ -4,6 +4,7 @@ import 'tab/account_page.dart';
 import 'draw.dart';
 import 'widgets/recent_card.dart';
 import 'widgets/history_card.dart';
+import 'video_page.dart';
 
 class DiscoverPage extends StatefulWidget {
   @override
@@ -72,7 +73,12 @@ class _DiscoverPageState extends State<DiscoverPage> {
                 itemBuilder: (BuildContext context, int index) {
                   return Container(
                     margin: EdgeInsets.only(right: 8.0),
-                    child: RecentCard(),//Center(child: Text('$index')),
+                    child: GestureDetector(
+                      child: RecentCard(),
+                      onTap: (){
+Navigator.of(context).push(MaterialPageRoute(builder: (context) => VideoPage()));
+                      },
+                      ),//Center(child: Text('$index')),
                     width: 336,
                     height: 190,
                     // color: _colors[Random().nextInt(_colors.length)],
